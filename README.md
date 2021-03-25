@@ -16,3 +16,6 @@ pie(x,labels,radius,main,col,clockwise)
 Run the following command to your Rstudio console to 
 
 install.packages("plotrix")
+
+# output
+![2Dpiepercentage](https://user-images.githubusercontent.com/70443251/112511524-7e749300-8db8-11eb-9446-919e630a8a72.png)
