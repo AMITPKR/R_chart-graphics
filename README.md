@@ -10,3 +10,7 @@ pie(x,labels,radius,main,col,clockwise)
 "main" indicates the tittle of the chart.
 "col" indicates the color pallete.
 "clockwise" logical values indicating if the slices are drawn clockwise or anticlockwise.
+#package for chart and graphics in R
+Run the following command to your Rstudio console to 
+
+install.packages("plotrix")
