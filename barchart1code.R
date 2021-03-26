@@ -1,0 +1,5 @@
+h<-c(7,12,28,3,41)
+m<-c("mar","apr","may","jun","jul")
+png(filename ="barchart1.png" )
+barplot(h,xlab ="months",ylab = "revenue",names.arg = m,col="Pink",main="revenue chart",border="red")
+dev.off()
