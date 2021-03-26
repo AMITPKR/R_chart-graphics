@@ -41,3 +41,22 @@ dev.off()     #save the file
 
 # Output
 ![2Dpiepercentage](https://user-images.githubusercontent.com/70443251/112511524-7e749300-8db8-11eb-9446-919e630a8a72.png)
+
+# Bar Chart
+R bar chart represent data in ractangular bars with lenth of the bar . r uses the function barplot().
+# syntax
+barplot(H,xlab,ylab,main,names.arg,col)
+
+H-> vector or matrix containing numeric values.
+
+xlab-> the lable for x axis.
+
+ylab-> the lable for y axis.
+
+main-> tittle of the bar chart.
+
+names.org-> vector of names appearing under each bar.
+
+col-> used to give colors to the bars
+# simple example of code
+
