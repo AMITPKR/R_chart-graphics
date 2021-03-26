@@ -39,7 +39,7 @@ legend("topright",lbl,cex=0.8,fill=rainbow(length(x)))
 
 dev.off()     #save the file
 
-# Output
+# Output pie chart
 ![2Dpiepercentage](https://user-images.githubusercontent.com/70443251/112511524-7e749300-8db8-11eb-9446-919e630a8a72.png)
 
 # Bar Chart
@@ -59,4 +59,15 @@ names.org-> vector of names appearing under each bar.
 
 col-> used to give colors to the bars
 # simple example of code
+h<-c(7,12,28,3,41)
 
+m<-c("mar","apr","may","jun","jul")
+
+png(filename ="barchart1.png" )
+
+barplot(h,xlab ="months",ylab = "revenue",names.arg = m,col="Pink",main="revenue chart",border="red")
+
+dev.off()
+
+# output bar chart
+![barchart1](https://user-images.githubusercontent.com/70443251/112587689-1065b580-8e24-11eb-91b1-7d3bb63e23d8.png)
