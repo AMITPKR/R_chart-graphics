@@ -1,7 +1,7 @@
-# R_piechart
+# R_chart&graphs
 R language has numerous libraries to create charts and graghs. A pie chart is a representation of values as slices od a circles with different colors. Pie() function is used for this.
 
-## SYNTAX
+## SYNTAX of pie chart
 
 pie(x,labels,radius,main,col,clockwise)
 
