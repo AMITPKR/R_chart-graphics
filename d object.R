@@ -1,3 +1,4 @@
+## code for the pie chart
 library("plotrix")            #get the library
 x<-c(10,5,100,4)              #create population data in Lakh for the length 
 lbl<-c("Raipur","Bilaspur","Delhi","Goa") 
