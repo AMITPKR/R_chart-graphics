@@ -22,7 +22,7 @@ Run the following command to your Rstudio console to
 
 install.packages("plotrix")
 
-# input Code
+# Input Code
 library("plotrix")            #get the library
 
 x<-c(10,5,100,4)              #create population data in Lakh for the length
@@ -71,3 +71,4 @@ dev.off()
 
 # output bar chart
 ![barchart1](https://user-images.githubusercontent.com/70443251/112587689-1065b580-8e24-11eb-91b1-7d3bb63e23d8.png)
+
